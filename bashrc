@@ -8,3 +8,4 @@ if [[ -n "$PS1" ]] ; then
 fi
 
 source ~/.bash/rvm
+source ~/.bash/rbenv
