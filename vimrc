@@ -56,3 +56,7 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby colorscheme vividchalk
 
+"Powerline
+let g:Powerline_symbols = 'fancy'
+set laststatus=2
+set guifont=Ubuntu\ Mono\ for\ Powerline\ 12
