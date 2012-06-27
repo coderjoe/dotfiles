@@ -43,3 +43,6 @@
 [submodule "vim/bundle/vim-rake"]
 	path = vim/bundle/vim-rake
 	url = https://github.com/tpope/vim-rake.git
+[submodule "vim/bundle/vim-powerline"]
+	path = vim/bundle/vim-powerline
+	url = https://github.com/Lokaltog/vim-powerline
