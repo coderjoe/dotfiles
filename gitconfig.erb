@@ -11,7 +11,8 @@
 [alias]
         co = checkout
         hist = log --pretty=format:\"%h %ad | %s%d [%an]\" --graph --date=short
-        l = log --decorate=short
+				l = log --decorate=short
+				serve = !git daemon --reuseaddr --verbose --base-path=. --export-all ./.git
 [core]
 	excludesfile = <%= ENV['HOME'] %>/.gitignore
         autocrlf = input
