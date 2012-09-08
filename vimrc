@@ -8,6 +8,7 @@ set nocompatible
 filetype on
 filetype plugin on
 filetype indent on
+compiler ruby
 set history=1000
 set cf
 set ffs=unix,dos,mac
