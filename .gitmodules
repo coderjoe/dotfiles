@@ -25,9 +25,6 @@
 [submodule "vim/bundle/vim-vividchalk"]
 	path = vim/bundle/vim-vividchalk
 	url = https://github.com/tpope/vim-vividchalk.git
-[submodule "vim/bundle/vim-rvm"]
-	path = vim/bundle/vim-rvm
-	url = https://github.com/tpope/vim-rvm.git
 [submodule "vim/bundle/vim-ragtag"]
 	path = vim/bundle/vim-ragtag
 	url = https://github.com/tpope/vim-ragtag.git
