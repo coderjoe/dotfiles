@@ -7,5 +7,6 @@ if [[ -n "$PS1" ]] ; then
     source ~/.bash/prompt
 fi
 
+source ~/.bash/nvm
 source ~/.bash/rvm
 source ~/.bash/rbenv

@@ -3,6 +3,7 @@
 . ~/.zsh/completion
 . ~/.zsh/prompt
 . ~/.zsh/dircolors
+. ~/.zsh/nvm
 . ~/.zsh/rvm
 . ~/.zsh/rbenv
 
