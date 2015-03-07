@@ -49,3 +49,12 @@
 [submodule "vim/bundle/matchit"]
 	path = vim/bundle/matchit
 	url = https://github.com/vim-scripts/matchit.zip
+[submodule "vim/bundle/vim-airline"]
+	path = vim/bundle/vim-airline
+	url = https://github.com/bling/vim-airline
+[submodule "fonts/powerline"]
+	path = fonts/powerline
+	url = https://github.com/powerline/fonts.git
+[submodule "vim/bundle/vim-tmuxline"]
+	path = vim/bundle/vim-tmuxline
+	url = https://github.com/edkolev/tmuxline.vim.git
