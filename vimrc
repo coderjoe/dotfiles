@@ -57,6 +57,9 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby colorscheme vividchalk
 
+"NERDTree
+map <C-n> :NERDTreeFocus<CR>
+
 "Airline
 let g:airline_powerline_fonts = 1
 set laststatus=2
