@@ -57,6 +57,9 @@ autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
 autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
 autocmd FileType ruby,eruby colorscheme vividchalk
 
+"Yaml
+autocmd FileType yaml set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
+
 "NERDTree
 map <C-n> :NERDTreeFocus<CR>
 
