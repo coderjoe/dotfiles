@@ -64,6 +64,6 @@ autocmd FileType yaml set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
 map <C-n> :NERDTreeFocus<CR>
 
 "Airline
-let g:airline_powerline_fonts = 1
+let g:airline_powerline_fonts=1
 set laststatus=2
 set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 12
