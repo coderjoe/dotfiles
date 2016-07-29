@@ -1,10 +1,38 @@
-"Make sure we can load pathogen from our bundle
-"then add our runtime path
-runtime bundle/pathogen/autoload/pathogen.vim
-execute pathogen#infect()
+set nocompatible " The future is now!
+filetype off
+
+set rtp+=~/.vim/bundle/Vundle.vim
+call vundle#begin()
+
+" Vundle for fundle
+Plugin 'VundleVim/Vundle.vim'
+
+Plugin 'SirVer/ultisnips'
+Plugin 'edkolev/tmuxline.vim'
+Plugin 'ekalinin/Dockerfile.vim'
+Plugin 'ervandew/supertab'
+Plugin 'honza/vim-snippets'
+Plugin 'jpo/vim-railscasts-theme'
+Plugin 'scrooloose/nerdtree'
+Plugin 'tomasr/molokai'
+Plugin 'tpope/vim-bundler'
+Plugin 'tpope/vim-cucumber'
+Plugin 'tpope/vim-fugitive'
+Plugin 'tpope/vim-haml'
+Plugin 'tpope/vim-ragtag'
+Plugin 'tpope/vim-rails'
+Plugin 'tpope/vim-rake'
+Plugin 'tpope/vim-surround'
+Plugin 'tpope/vim-vividchalk'
+Plugin 'vim-airline/vim-airline'
+Plugin 'vim-airline/vim-airline-themes'
+Plugin 'vim-ruby/vim-ruby'
+Plugin 'vim-scripts/matchit.zip'
+
+call vundle#end()
+filetype plugin indent on
 
 "General Settings
-set nocompatible
 filetype on
 filetype plugin on
 filetype indent on
@@ -49,21 +77,3 @@ set smarttab
 set foldenable "turn it on
 set foldmethod=indent "folding should be wary of indents
 set foldlevel=100 "don't fold anything (but let me fold manually)
-
-"Ruby
-autocmd FileType ruby,eruby set omnifunc=rubycomplete#Complete tabstop=2 shiftwidth=2 softtabstop=2 expandtab
-autocmd FileType ruby,eruby let g:rubycomplete_buffer_loading = 1
-autocmd FileType ruby,eruby let g:rubycomplete_rails = 1
-autocmd FileType ruby,eruby let g:rubycomplete_classes_in_global = 1
-autocmd FileType ruby,eruby colorscheme vividchalk
-
-"Yaml
-autocmd FileType yaml set tabstop=2 shiftwidth=2 softtabstop=2 expandtab
-
-"NERDTree
-map <C-n> :NERDTreeFocus<CR>
-
-"Airline
-let g:airline_powerline_fonts=1
-set laststatus=2
-set guifont=Ubuntu\ Mono\ derivative\ Powerline\ 12
